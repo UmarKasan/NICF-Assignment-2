@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Adds logo shown to browser tab -->
+    <link rel="shortcut icon" href="D:\Course\NICF - Frontend\Assignment 2\Assets\favicon.ico" />
+    <!-- Changes the title to "Silent Library" on browser tab -->
+    <link rel="stylesheet" href="Styles.css">
+    <title>Silent Library</title>
+  </head>
+  <body class="main-body">
+    <div class="main-header">
+      <div class="pinning-header-container" style="top: 0px; position: relative; background: transparent;">
+        <navbar class="main-header" role="navigation">
+          <!-- Include Logo in NavBar -->
+          <img class="header-tabs" src="D:\Course\NICF - Frontend\Assignment 2\Assets\SL_Logo.png" height = 50vh>
+          <!-- Adds all the link tag -->
+          <a class="header-tabs" href="#">Home</a>
+          <a class="header-tabs" href="/about">About</a>
+          <a class="header-tabs" href="/browse">New</a>
+          <a class="header-tabs" href="/browse">Books</a>
+          <a class="header-tabs" href="/browse">ebooks</a>
+          <a class="header-tabs" href="/browse/my-list">My List</a>
+          <a class="header-tabs" href="/browse/my-list">Find Us</a>
+          <!-- Create search bar -->
+          <searchbar class="search-container">
+            <form action="/browse">
+              <input type="text" name="search" placeholder="Search..">
+              <button class ="search-button"><img src="D:\Course\NICF - Frontend\Assignment 2\Assets\search-interface-symbol.png" type="submit" height = 30vh></button>
+            </form>
+          </searchbar>
+          <!-- notification alert -->
+          <noti href="#" class="notification header-tabs">
+            <button  class="notification-bell" type="button" ><img src="D:\Course\NICF - Frontend\Assignment 2\Assets\bell.png" height = 30vh></button>
+            <span class="badge">3</span>
+          </noti>
+          <!-- Create Profile Display -->
+          <img class="header-tabs profile-logo" src="D:\Course\NICF - Frontend\Assignment 2\Assets\Admin_Logo.png" height = 50vh>
+          <!-- Create Dropdown list -->
+          <div class="dropdown">
+            <button class ="dropdown-button" type="button" ><img src="D:\Course\NICF - Frontend\Assignment 2\Assets\down-arrow.png" height = 20vh></button>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </navbar>
+      </div>
+    </div>
+    <events>
+      <video height=20% controls autoplay>
+        <source src="D:\Course\NICF - Frontend\Assignment 2\Assets\Let's Read Together.mp4" type="video/mp4">
+        <!-- <source src="D:\Course\NICF - Frontend\Assignment 2\Assets\Geek the Library Event.mp4" type="video/mp4"> -->
+      </video>
+    </events>
+    <book>
+      <p>New</p>
+      <div>
+        <div>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+        </div>
+      </div>
+      <p>Science</p>
+      <div>
+        <div>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+        </div>
+      </div>
+      <p>Music</p>
+      <div>
+        <div>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+        </div>
+      </div>
+    </book>
+    <footer>
+      <navbar class="main-header" role="navigation">
+        <!-- Include Logo in NavBar -->
+        <img class="header-tabs" src="D:\Course\NICF - Frontend\Assignment 2\Assets\SL_Logo.png" height = 50vh>
+        <a class="header-tabs" href="#">Home</a>
+        <a class="header-tabs" href="/about">About</a>
+        <a class="header-tabs" href="/browse">New</a>
+        <a class="header-tabs" href="/browse">Books</a>
+        <a class="header-tabs" href="/browse">ebooks</a>
+        <a class="header-tabs" href="/browse/my-list">My List</a>
+        <a class="header-tabs" href="/browse/my-list">Find Us</a>
+    </footer>
+  </body>
+</html>

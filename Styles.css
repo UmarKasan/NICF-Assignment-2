@@ -1,0 +1,97 @@
+/* Main Body */
+.main-body {
+  color: #fff!important;
+  background: rgba(40, 40, 40, 1)!important;
+  margin: 0px;
+}
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+.main-body-div {
+  color: #fff!important;
+  background: rgba(40, 40, 40, 1)!important;
+  z-index: 1;
+
+}
+/* Header Nav bar */
+.main-header {
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem;
+    padding-right: 0 4%;
+    position: relative;
+    transition: background-color .4s;
+    top: 0;
+    z-index: 1;
+}
+.pinning-header-container {
+  height: 10px;
+  left: 0;
+  position: relative;
+  flex-direction: row;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+/* need fixing */
+a{
+  text-shadow: 2px 2px 8px #000000
+}
+/* Adjust the style for navigation text */
+.header-tabs{
+  text-decoration: none; /*removes the underline and default colour*/
+  white-space: nowrap; /*Prevents the text from stacking*/
+  color: white; /*changes the colour to white*/
+  padding: 0 1%;
+  z-index: 1;
+}
+/* For Search bar */
+.search-container {
+  white-space: nowrap; /*Prevents the element from stacking*/
+}
+input [type=text]{
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+.search-button {
+  background-color: transparent;
+  border: 0px;
+}
+/* notification bell */
+.notification-bell{
+  background-color: transparent;
+  border: 0px;
+}
+/* For Dropdown Menu */
+.dropdown {
+  /* position: relative; */
+  display: inline-block;
+  right: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown-button{
+  background-color: transparent;
+  border: 0px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Profile Logo */
+.profile-logo{
+  border-radius: 50%
+}
+/* book */
+.book-profile {
+  padding-left: 1%;
+  padding-right: 1%;
+}

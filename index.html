@@ -8,50 +8,90 @@
     <link rel="stylesheet" href="Styles.css">
     <title>Silent Library</title>
   </head>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
   <body class="main-body">
-    <div class="main-header">
-      <div class="pinning-header-container" style="top: 0px; position: relative; background: transparent;">
+
+    <!-- redundency div container -->
+    <div class="main-header"> <!-- Adjust the colour of fonts and general settings of divs in thsi class-->
+      <div class="pinning-header-container"> <!-- makes the nav bar overlay other divs-->
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+        <!-- Navigation Bar: Where all the links will direct to relevant pages -->
         <navbar class="main-header" role="navigation">
-          <!-- Include Logo in NavBar -->
-          <img class="header-tabs" src="D:\Course\NICF - Frontend\Assignment 2\Assets\SL_Logo.png" height = 50vh>
-          <!-- Adds all the link tag -->
-          <a class="header-tabs" href="#">Home</a>
-          <a class="header-tabs" href="/about">About</a>
-          <a class="header-tabs" href="/browse">New</a>
-          <a class="header-tabs" href="/browse">Books</a>
-          <a class="header-tabs" href="/browse">ebooks</a>
-          <a class="header-tabs" href="/browse/my-list">My List</a>
-          <a class="header-tabs" href="/browse/my-list">Find Us</a>
-          <!-- Create search bar -->
-          <searchbar class="search-container">
-            <form action="/browse">
-              <input type="text" name="search" placeholder="Search..">
-              <button class ="search-button"><img src="D:\Course\NICF - Frontend\Assignment 2\Assets\search-interface-symbol.png" type="submit" height = 30vh></button>
-            </form>
-          </searchbar>
-          <!-- notification alert -->
-          <noti href="#" class="notification header-tabs">
-            <button  class="notification-bell" type="button" ><img src="D:\Course\NICF - Frontend\Assignment 2\Assets\bell.png" height = 30vh></button>
-            <span class="badge">3</span>
-          </noti>
-          <!-- Create Profile Display -->
-          <img class="header-tabs profile-logo" src="D:\Course\NICF - Frontend\Assignment 2\Assets\Admin_Logo.png" height = 50vh>
-          <!-- Create Dropdown list -->
-          <div class="dropdown">
-            <button class ="dropdown-button" type="button" ><img src="D:\Course\NICF - Frontend\Assignment 2\Assets\down-arrow.png" height = 20vh></button>
-            <div class="dropdown-content">
-              <p>Hello World!</p>
-            </div>
-          </div>
+
+          <!-- Seperates the profile on the right  -->
+          <leftbar class="main-header">
+            <!-- Include Logo in NavBar -->
+            <img class="header-tabs" src="D:\Course\NICF - Frontend\Assignment 2\Assets\SL_Logo.png" height = 50vh>
+            <!-- Adds all the link tag -->
+            <a class="header-tabs" href="#">Home</a>
+            <a class="header-tabs" href="/about">About</a>
+            <a class="header-tabs" href="/browse">New</a>
+            <a class="header-tabs" href="/browse">Books</a>
+            <a class="header-tabs" href="/browse">ebooks</a>
+            <a class="header-tabs" href="/browse/my-list">My List</a>
+            <a class="header-tabs" href="/browse/my-list">Find Us</a>
+          </leftbar>
+
+          <!-- Seperates from the Links on the left -->
+          <rightbar class="main-header">
+            <!-- Create search bar -->
+            <searchbar class="search-container">
+              <form action="/browse">
+                <input type="text" name="search" placeholder="Search..">
+                <button class ="search-button"><img src="D:\Course\NICF - Frontend\Assignment 2\Assets\search-interface-symbol.png" type="submit" height = 30vh></button>
+              </form>
+            </searchbar>
+            <!-- notification alert -->
+            <noti href="#" class="notification header-tabs">
+              <button  class="notification-bell" type="button" ><img src="D:\Course\NICF - Frontend\Assignment 2\Assets\bell.png" height = 30vh></button>
+              <span class="badge">3</span>
+            </noti>
+            <!-- Create Profile Display -->
+            <profi class="header-tabs profile-logo">
+              <img class="header-tabs profile-logo" src="D:\Course\NICF - Frontend\Assignment 2\Assets\Admin_Logo.png" height = 40vh>
+              <!-- Create Dropdown list -->
+              <div class="dropdown">
+                <button class ="dropdown-button" type="button" ><img src="D:\Course\NICF - Frontend\Assignment 2\Assets\down-arrow.png" height = 20vh></button>
+                <div class="dropdown-content">
+                  <b class="header-tabs" href="#">Sign up</b>
+                  <b class="header-tabs" href="#">Log In</b>
+                  <b class="header-tabs" href="#">Log Out</b>
+                  <b class="header-tabs" href="#">Profile</b>
+                  <b class="header-tabs" href="#">Enquire</b>
+                  <b class="header-tabs" href="#">Settings</b>
+                  <b class="header-tabs" href="#">Borrow List</b>
+                </div>
+              </div>
+            </profi>
+          </rightbar>
         </navbar>
       </div>
     </div>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- Creates div for Events -->
     <events>
-      <video height=20% controls autoplay>
-        <source src="D:\Course\NICF - Frontend\Assignment 2\Assets\Let's Read Together.mp4" type="video/mp4">
+      <eventCarousell>
+        <Eventtag class="event-tag">Let's read Together</eventtag>
+        <eventdesc class="event-desc">Come to Silent library special event. We have unleash a
+        ton of books for children outisde the main entrance. There are many fun activities awaits and free prizes to collect.
+       So come on down to Silent Library event and have a greet weekend</eventdesc>
+        <video controls autoplay>
+        <source class="event-video" src="D:\Course\NICF - Frontend\Assignment 2\Assets\Let's Read Together.mp4" type="video/mp4" muted autoplay loop playsinline>
         <!-- <source src="D:\Course\NICF - Frontend\Assignment 2\Assets\Geek the Library Event.mp4" type="video/mp4"> -->
-      </video>
+        </video>
+        <button class ="video1-button">Click for more info</button>
+     </eventCarousell>
     </events>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- Creates a div for book -->
     <book>
       <p>New</p>
       <div>
@@ -84,8 +124,12 @@
         </div>
       </div>
     </book>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- Creates a div for footer -->
     <footer>
-      <navbar class="main-header" role="navigation">
+      <navbar class="main-footer" role="navigation">
         <!-- Include Logo in NavBar -->
         <img class="header-tabs" src="D:\Course\NICF - Frontend\Assignment 2\Assets\SL_Logo.png" height = 50vh>
         <a class="header-tabs" href="#">Home</a>

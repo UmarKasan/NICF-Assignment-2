@@ -1,6 +1,5 @@
 ![A picture containing text, clipart Description automatically
-generated](md-Asset/media/image1.png){width="1.4166666666666667in"
-height="0.5882764654418198in"}
+generated](md-Asset/media/image1.png)
 
 **Formative Assignment 1**
 
@@ -8,11 +7,11 @@ height="0.5882764654418198in"}
 
 -------------- ----------------
 
-| ![](md-Asset/media/image2.png){width="2.6743055555555557in" height="2.386111111111111in"} |            Plan a website             |
-| :----------------------------------------------------------: | :-----------------------------------: |
-|                        Silent Library                        |           Develop Branding            |
-|                        WEBSITE DESIGN                        | Wireframes , Information Architecture |
-|                          Umar Kasan                          | Storyboard based on user requirements |
+| ![](md-Asset/media/image2.png) |            Plan a website             |
+| :----------------------------: | :-----------------------------------: |
+|         Silent Library         |           Develop Branding            |
+|         WEBSITE DESIGN         | Wireframes , Information Architecture |
+|           Umar Kasan           | Storyboard based on user requirements |
 
 [Project Objective 1](#project-objective)
 
@@ -87,7 +86,7 @@ height="0.5882764654418198in"}
   # Branding Logo
 
 
-# ![](md-Asset/media/image3.png){width="1.5379035433070867in" height="1.3722222222222222in"}
+# ![](md-Asset/media/image3.png)
 
 # Brand Colour Scheme
 
@@ -181,57 +180,46 @@ height="0.5882764654418198in"}
 
 ## Home Page
 
-![](md-Asset/media/image4.png){width="5.6618055555555555in"
-height="8.225in"}
+![](md-Asset/media/image4.png)
 
 ## Profile Page
 
-![](md-Asset/media/image5.png){width="5.989583333333333in"
-height="8.4375in"}
+![](md-Asset/media/image5.png)
 
 ## Enquiry, Contact us & FAQ Page
 
-![](md-Asset/media/image6.png){width="7.267361111111111in"
-height="8.40625in"}
+![](md-Asset/media/image6.png)
 
 ## Events Page
 
-![](md-Asset/media/image8.png){width="7.635416666666667in"
-height="8.604166666666666in"}
+![](md-Asset/media/image8.png)
 
 ## Book List Page
 
-![](md-Asset/media/image10.png){width="7.449305555555555in"
-height="8.773396762904637in"}
+![](md-Asset/media/image10.png)
 
 ## About Us Page
 
-![](md-Asset/media/image12.png){width="7.416666666666667in"
-height="8.739582239720034in"}
+![](md-Asset/media/image12.png)
 
 ## Events Page
 
-![](md-Asset/media/image14.png){width="7.611590113735783in"
-height="8.634722222222223in"}
+![](md-Asset/media/image14.png)
 
 # Storyboard
 
 ##  Header (Part 1)
 
-![](md-Asset/media/image16.png){width="7.479166666666667in"
-height="8.16388888888889in"}
+![](md-Asset/media/image16.png)
 
 ##  Header (Part 2)
 
-![](md-Asset/media/image26.png){width="7.541666666666667in"
-height="8.489582239720034in"}
+![](md-Asset/media/image26.png)
 
 ## Header (Part 3)
 
-![](md-Asset/media/image26.png){width="7.541666666666667in"
-height="8.489582239720034in"}
+![](md-Asset/media/image26.png)
 
 ## Booklist
 
-![](md-Asset/media/image30.png){width="7.476388888888889in"
-height="8.76744094488189in"}
+![](md-Asset/media/image30.png)

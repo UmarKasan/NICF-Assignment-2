@@ -51,9 +51,9 @@ rightbar {
   right: 10px;
 }
 
-/* Adds shadows for better clarity in different colour backgrounds */
+/* Adds shadows for better clarity in different colour backgrounds -> creates and all around shadow*/
 .header-text{
-  text-shadow: 2px 2px 8px #000000
+  text-shadow: 1px 1px 0 #000000,-1px -1px 0 #000000,-1px 1px 0 #000000, 1px -1px 0 #000000
 }
 /* Adjust the style for navigation text */
 .header-tabs{
@@ -140,6 +140,11 @@ rightbar {
 }
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.dropdown-tabs{
+  color: white;
+  text-decoration: none;
+  list-style: none;
 }
 
 /* profile bar */

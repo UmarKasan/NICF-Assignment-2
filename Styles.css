@@ -28,6 +28,11 @@
   top: 0;
   z-index: 1;
 }
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
 .main-header {
     align-items: center;
     display: flex;
@@ -46,8 +51,8 @@ rightbar {
   right: 10px;
 }
 
-/* need fixing */
-a{
+/* Adds shadows for better clarity in different colour backgrounds */
+.header-text{
   text-shadow: 2px 2px 8px #000000
 }
 /* Adjust the style for navigation text */
@@ -55,7 +60,7 @@ a{
   text-decoration: none; /*removes the underline and default colour*/
   white-space: nowrap; /*Prevents the text from stacking*/
   color: white; /*changes the colour to white*/
-  padding: 0 1%;
+  padding: 0 7px;
   z-index: 1;
 }
 
@@ -173,6 +178,10 @@ profi{
 }
 
 /* book */
+.book-category{
+  font-size: 2em;
+  margin: 0;
+}
 .book-profile {
   padding-left: 1%;
   padding-right: 1%;

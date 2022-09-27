@@ -25,15 +25,17 @@
           <!-- Seperates the profile on the right  -->
           <leftbar class="main-header">
             <!-- Include Logo in NavBar -->
-            <img class="header-tabs" src="D:\Course\NICF - Frontend\Assignment 2\Assets\SL_Logo.png" height = 50vh>
+            <img class="header-tabs" alt="Silent Library Logo" src="D:\Course\NICF - Frontend\Assignment 2\Assets\SL_Logo.png" height = 50vh>
             <!-- Adds all the link tag -->
-            <a class="header-tabs" href="#">Home</a>
-            <a class="header-tabs" href="/about">About</a>
-            <a class="header-tabs" href="/browse">New</a>
-            <a class="header-tabs" href="/browse">Books</a>
-            <a class="header-tabs" href="/browse">ebooks</a>
-            <a class="header-tabs" href="/browse/my-list">My List</a>
-            <a class="header-tabs" href="/browse/my-list">Find Us</a>
+            <ul class="header-tabs">
+              <li><a class="header-tabs header-text" href="#">Home</a></li>
+              <li><a class="header-tabs header-text" href="/about">About</a></li>
+              <li><a class="header-tabs header-text" href="/browse">New</a></li>
+              <li><a class="header-tabs header-text" href="/browse">Books</a></li>
+              <li><a class="header-tabs header-text" href="/browse">ebooks</a></li>
+              <li><a class="header-tabs header-text" href="/browse/my-list">My List</a></li>
+              <li><a class="header-tabs header-text" href="/browse/my-list">Find Us</a></li>
+            </ul>
           </leftbar>
 
           <!-- Seperates from the Links on the left -->
@@ -77,10 +79,10 @@
     <!-- Creates div for Events -->
     <events>
       <eventCarousell>
-        <Eventtag class="event-tag">Let's read Together</eventtag>
-        <eventdesc class="event-desc">Come to Silent library special event. We have unleash a
+        <h1 class="event-tag">Let's read Together</h1>
+        <h2 class="event-desc">Come to Silent library special event. We have unleash a
         ton of books for children outisde the main entrance. There are many fun activities awaits and free prizes to collect.
-       So come on down to Silent Library event and have a greet weekend</eventdesc>
+       So come on down to Silent Library event and have a great weekend</h2>
         <video controls autoplay>
         <source class="event-video" src="D:\Course\NICF - Frontend\Assignment 2\Assets\Let's Read Together.mp4" type="video/mp4" muted autoplay loop playsinline>
         <!-- <source src="D:\Course\NICF - Frontend\Assignment 2\Assets\Geek the Library Event.mp4" type="video/mp4"> -->
@@ -93,7 +95,7 @@
 
     <!-- Creates a div for book -->
     <book>
-      <p>New</p>
+      <h1 class="book-category">New</h1>
       <div>
         <div>
           <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
@@ -103,7 +105,7 @@
           <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
         </div>
       </div>
-      <p>Science</p>
+      <h1 class="book-category">Science</h1>
       <div>
         <div>
           <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
@@ -113,7 +115,7 @@
           <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
         </div>
       </div>
-      <p>Music</p>
+      <h1 class="book-category">Music</h1>
       <div>
         <div>
           <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>

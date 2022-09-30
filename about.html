@@ -24,16 +24,17 @@
             <img class="header-tabs" alt="Silent Library Logo" src="D:\Course\NICF - Frontend\Assignment 2\NICF-Assignment-2\Assets\SL_Logo_3.png" height = 50vh>
             <!-- Adds all the link tag -->
             <ul class="header-tabs">
-              <li><a class="header-tabs header-text" href="#">Home</a></li>
-              <li><a class="header-tabs header-text" href="about.html">About</a></li>
+              <li><a class="header-tabs header-text" href="index.html">Home</a></li>
+              <li><a class="header-tabs header-text" href="#">About</a></li>
               <li><a class="header-tabs header-text" href="browse.html">New</a></li>
               <li><a class="header-tabs header-text" href="browse.html">Books</a></li>
               <li><a class="header-tabs header-text" href="browse.html">ebooks</a></li>
-              <li><a class="header-tabs header-text" href="browse.htmlt">My List</a></li>
+              <li><a class="header-tabs header-text" href="browse.html">My List</a></li>
               <li><a class="header-tabs header-text" href="find us.html">Find Us</a></li>
             </ul>
           </leftbar>
 
+          <!-- Seperates from the Links on the left -->
           <rightbar class="main-header">
             <!-- Create search bar -->
             <searchbar class="search-container">
@@ -70,79 +71,37 @@
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
     <!-- Creates div for Events -->
-    <div class="media-container">
-      <div class="media-scroller">
-
-        <!--   Group 1 -->
-        <div class="media-group" id="group-1">
-          <a class="previous" href="#group-2">
-            <svg>
-              <use href="#previous"></use>
-            </svg>
-          </a>
-          <article class="event-group">
+    <section class="event">
+      <article class="event-group">
+        <event-element class="event-element">
+          <video class="event-video" controls muted autoplay loop playsinline>
+          <source src="D:\Course\NICF - Frontend\Assignment 2\Assets\Let's Read Together.mp4" type="video/mp4" >
+          </video>
+          <header class="event-tag">
             <h1 class="event-title header-text">Let's read Together</h1>
             <p class="event-desc header-text">Come to Silent library special event.
-            We have unleash a ton of books for children outisde the main entrance.
-            There are many fun activities awaits and free prizes to collect.
-            So come on down to Silent Library event and have a great weekend</p>
-            <button class ="video-button">More info</button>
-          </article>
-          <div class="media-element">
-            <video class="event-video" controls muted autoplay loop playsinline>
-              <source src="Assets/Let's Read Together.mp4"
-              alt=""></video>
-          </div>
-          <a class="next" href="#group-2" aria-label="next">
-            <svg>
-              <use href="#next"></use>
-            </svg>
-          </a>
-        </div>
+              We have unleash a ton of books for children outisde the main entrance.
+              There are many fun activities awaits and free prizes to collect.
+              So come on down to Silent Library event and have a great weekend</p>
+           <button class ="video-button">More info</button>
+          </header>
+        </event-element>
+     </article>
 
-        <!-- Group 2   -->
-        <div class="media-group" id="group-2">
-          <a class="previous" href="#group-1">
-            <svg>
-              <use href="#previous"></use>
-            </svg>
-          </a>
-          <article class="event-group">
-            <h1 class="event-title header-text">Geek the library</h1>
-            <p class="event-desc header-text">It's time to geeek out at the most geekiest place of all time.
-              Your friendly neighbourhood library and our fellow geek friends</p>
-            <button class ="video-button">More info</button>
-          </article>
-          <div class="media-element">
-            <video class="event-video" controls muted autoplay loop playsinline>
-            <source src="Assets/Geek the Library Event.mp4"
-            alt=""></video>
-          </div>
-          <a class="next" href="#group-1" aria-label="next">
-            <svg>
-              <use href="#next"></use>
-            </svg>
-          </a>
-        </div>
-        <div class="navigation-indicators">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-    </div>
-    <svg>
-      <symbol id="next" viewBox="0 0 256 512">
-        <path fill="white"
-          d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
-      </symbol>
-
-      <symbol id="previous" viewBox="0 0 256 512">
-        <path fill="white"
-          d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
-      </symbol>
-    </svg>
+     <article class="event-group">
+       <event-element class="event-element">
+         <video class="event-video" controls muted autoplay loop playsinline>
+         <source src="D:\Course\NICF - Frontend\Assignment 2\Assets\Geek the Library Event.mp4" type="video/mp4" >
+         </video>
+         <header  class="event-tag">
+           <h1 class="event-title header-text">Geek the library</h1>
+           <p class="event-desc header-text">It's time to geeek out at the most geekiest place of all time.
+             Your friendly neighbourhood library and our fellow geek friends</p>
+          <button class ="video-button">More info</button>
+         </header>
+       </event-element>
+     </article>
+    </section>
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
@@ -186,14 +145,14 @@
     <footer>
       <navbar class="main-footer" role="navigation">
         <!-- Include Logo in NavBar -->
-        <img class="header-tabs" src="Assets/fb_Logo.png" height = 50vh>
+        <img class="header-tabs" src="D:\Course\NICF - Frontend\Assignment 2\Assets\SL_Logo.png" height = 50vh>
         <a class="header-tabs" href="#">Home</a>
-        <a class="header-tabs" href="about.html">About</a>
-        <a class="header-tabs" href="browse.html">New</a>
-        <a class="header-tabs" href="browse.html">Books</a>
-        <a class="header-tabs" href="browse.html">ebooks</a>
-        <a class="header-tabs" href="browse.html">My List</a>
-        <a class="header-tabs" href="browse.html">Find Us</a>
+        <a class="header-tabs" href="/about">About</a>
+        <a class="header-tabs" href="/browse">New</a>
+        <a class="header-tabs" href="/browse">Books</a>
+        <a class="header-tabs" href="/browse">ebooks</a>
+        <a class="header-tabs" href="/browse/my-list">My List</a>
+        <a class="header-tabs" href="/browse/my-list">Find Us</a>
     </footer>
   </body>
   <!-- <script src = "scriptfile.js"></script> -->

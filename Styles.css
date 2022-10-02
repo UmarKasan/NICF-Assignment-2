@@ -165,38 +165,14 @@ profi{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* Event */
-/* .event{
-  grid-auto-columns: : 100%;
-  overflow: auto;
-} */
-/* .event .event-group{
-  display: grid;
-  grid-gap: 0.25rem;
-  grid-auto-flow: column;
-} */
 .event-group{
-  /* display: none; */
-  /* align-items: left; */
+
   width: 300px;
   margin-left: 50px;
   margin-top: 100px;
   z-index: 11;
   position: absolute;
-  /* width: 3rem; */
-  /* padding: 1rem; */
-  /* background: rgb(0 0 0 / 0); */
-  /* opacity: 0; */
 }
-/* .event-element{
-  border-radius: 0.25rem;
-  overflow: hidden;
-} */
-/* .event-tag{
-  position: absolute;
-  margin: none;
-  border: none;
-  padding: 0px;
-} */
 .event-title{
   font-size: 60px;
 }
@@ -207,35 +183,11 @@ profi{
   max-height: 500vh;
   max-width: 100%;
 } */
-/* .video-button{
-  position: absolute;
-  text-align: center;
-  left: 30px;
-} */
 * {
   margin: 0;
 }
 
 *,
-/* *::before,
-*::after {
-  box-sizing: border-box;
-} */
-
-/* body {
-  font-family: system-ui;
-  font-size: 1.25rem;
-  color: white;
-  background: #121212;
-} */
-
-/* need to check */
-/* img,
-svg {
-  max-width: 100%;
-  display: block;
-} */
-
 /* general styling */
 
 /* need to check */
@@ -244,13 +196,11 @@ svg {
   margin-inline: auto;
 } */
 
-/* Need to check */
 /* .flow {
   display: grid;
   gap: var(--flow-spacer, 1rem);
 } */
 
-/* need to check */
 /* .page-header {
   padding-block: 5rem;
   margin-block-end: 5rem;
@@ -259,13 +209,11 @@ svg {
   color: white;
 } */
 
-/* Need to checek */
 /* .page-title {
   font-size: 4rem;
   margin: 0;
 } */
 
-/* Need Check */
 /* .section-title {
   margin-block: 4rem 1rem;
 } */

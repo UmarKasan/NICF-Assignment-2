@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 /* Main Body */
 .main-body {
   color: #fff!important;
@@ -6,11 +9,20 @@
 }
 body{
   overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-]
-#main {margin-left: 120px}
+.media-container {
+  margin-left: 0px
+}
 /* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+/* @media only screen and (max-width: 400px) {
+  .pinning-header-container{
+  flex-direction: column;
+  background-color: lightgreen;
+  }
+} */
 .main-body-div {
   color: #fff!important;
   background: rgba(40, 40, 40, 1)!important;
@@ -24,7 +36,6 @@ body{
 .pinning-header-container {
   background-color: rgba(0,0,0,.5);
   top: 0px;
-  position:relative;
   /* background: transparent; */
   height: 0px;
   left: 0;
@@ -135,7 +146,7 @@ rightbar {
 }
 .dropdown-button{
   position: absolute;
-  top: 25px;
+  bottom: -5px;
   right: -15px;
   padding: 1px 5px;
   margin-right: 5px;
@@ -179,44 +190,6 @@ profi{
 .event-desc{
   font-size: 20px;
 }
-/* .event-video{
-  max-height: 500vh;
-  max-width: 100%;
-} */
-* {
-  margin: 0;
-}
-
-*,
-/* general styling */
-
-/* need to check */
-/* .container {
-  inline-size: min(100% - 4rem, 70rem);
-  margin-inline: auto;
-} */
-
-/* .flow {
-  display: grid;
-  gap: var(--flow-spacer, 1rem);
-} */
-
-/* .page-header {
-  padding-block: 5rem;
-  margin-block-end: 5rem;
-  background-size: cover;
-  background-blend-mode: multiply;
-  color: white;
-} */
-
-/* .page-title {
-  font-size: 4rem;
-  margin: 0;
-} */
-
-/* .section-title {
-  margin-block: 4rem 1rem;
-} */
 
 /* media scroller */
 
@@ -247,9 +220,8 @@ profi{
   border-radius: 0.25rem;
   overflow: hidden;
 }
-.media-element > video {
+.media-element > img {
   width: 100%;
-  aspect-ratio: 16 / 9;
   object-fit: cover;
 }
 
@@ -267,13 +239,13 @@ profi{
 
 .previous {
   left: 0;
-  top: 0;
+  top: 100px;
   bottom: 0;
 }
 
 .next {
   right: 0;
-  top: 0;
+  top: 100px;
   bottom: 0;
 }
 
@@ -312,13 +284,11 @@ svg{
 }
 
 /* navigation indicators */
-
 .navigation-indicators {
   opacity: 0;
   position: absolute;
   display: flex;
   gap: 3px;
-
   top: -1rem;
   right: 2rem;
 }
@@ -345,14 +315,6 @@ svg{
   opacity: 1;
 }
 
-.media-group:nth-child(3):target ~ .navigation-indicators > *:nth-child(3) {
-  opacity: 1;
-}
-
-.media-group:nth-child(4):target ~ .navigation-indicators > *:nth-child(4) {
-  opacity: 1;
-}
-
 .media-scroller:hover .navigation-indicators {
   opacity: 1;
 }
@@ -367,4 +329,22 @@ svg{
 .book-profile {
   padding-left: 1%;
   padding-right: 1%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* footer */
+.main-footer{
+  padding: 10px 10px 10px 10px;
+  /* makes the footer stay below */
+  margin-top: auto;
+}
+.footer-tabs{
+  text-decoration: none; /*removes the underline and default colour*/
+  white-space: nowrap; /*Prevents the text from stacking*/
+  color: white; /*changes the colour to white*/
+  text-align: center;
+
+  padding: 0 7px;
+  z-index: -1;
 }

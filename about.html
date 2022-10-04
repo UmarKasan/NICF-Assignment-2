@@ -21,11 +21,11 @@
           <!-- Seperates the profile on the right  -->
           <leftbar class="main-header">
             <!-- Include Logo in NavBar -->
-            <img class="header-tabs" alt="Silent Library Logo" src="D:\Course\NICF - Frontend\Assignment 2\NICF-Assignment-2\Assets\SL_Logo_3.png" height = 50vh>
+            <img class="header-tabs" alt="Silent Library Logo" src="Assets/SL_Logo_3.png" height = 50vh>
             <!-- Adds all the link tag -->
             <ul class="header-tabs">
               <li><a class="header-tabs header-text" href="index.html">Home</a></li>
-              <li><a class="header-tabs header-text" href="#">About</a></li>
+              <li><a class="header-tabs header-text" href="#S">About</a></li>
               <li><a class="header-tabs header-text" href="browse.html">New</a></li>
               <li><a class="header-tabs header-text" href="browse.html">Books</a></li>
               <li><a class="header-tabs header-text" href="browse.html">ebooks</a></li>
@@ -34,34 +34,33 @@
             </ul>
           </leftbar>
 
-          <!-- Seperates from the Links on the left -->
           <rightbar class="main-header">
             <!-- Create search bar -->
             <searchbar class="search-container">
               <form action="/browse">
                 <input type="text" name="search" placeholder="Search..">
-                <button class ="search-button"><img src="D:\Course\NICF - Frontend\Assignment 2\Assets\search-interface-symbol.png" type="submit" height = 30vh></button>
+                <button class ="search-button"><img src="Assets/search-interface-symbol.png" type="submit" height = 30vh></button>
               </form>
             </searchbar>
             <!-- notification alert -->
             <noti href="#" class="notification header-tabs">
-              <button  class="notification-bell" type="button" ><img src="D:\Course\NICF - Frontend\Assignment 2\Assets\bell.png" height = 30vh></button>
+              <button  class="notification-bell" type="button" ><img src="Assets/bell.png" height = 30vh></button>
               <span class="badge">3</span>
             </noti>
             <!-- Create Profile Display -->
             <profi class="header-tabs profile-logo">
-              <img class="header-tabs profile-logo" src="D:\Course\NICF - Frontend\Assignment 2\Assets\Admin_Logo.png" height = 40vh>
+              <img class="header-tabs profile-logo" src="Assets/Admin_Logo.png" height = 40vh>
               <!-- Create Dropdown list -->
               <div class="dropdown">
-                <button class ="dropdown-button" type="button" ><img src="D:\Course\NICF - Frontend\Assignment 2\Assets\down-arrow.png" height = 20vh></button>
+                <button class ="dropdown-button" type="button" ><img src="Assets/down-arrow.png" height = 20vh></button>
                 <ul class="dropdown-content">
-                  <li><a class="dropdown-tabs" href="#">Sign up</a></li>
-                  <li><a class="dropdown-tabs" href="#">Log In</a></li>
+                  <li><a class="dropdown-tabs" href="sign up.html">Sign up</a></li>
+                  <li><a class="dropdown-tabs" href="log in.html">Log In</a></li>
                   <li><a class="dropdown-tabs" href="#">Log Out</a></li>
-                  <li><a class="dropdown-tabs" href="#">Profile</a></li>
-                  <li><a class="dropdown-tabs" href="#">Enquire</a></li>
-                  <li><a class="dropdown-tabs" href="#">Settings</a></li>
-                  <li><a class="dropdown-tabs" href="#">Borrower List</a></li>
+                  <li><a class="dropdown-tabs" href="profile.html">Profile</a></li>
+                  <li><a class="dropdown-tabs" href="enquire.html">Enquire</a></li>
+                  <li><a class="dropdown-tabs" href="settings.html">Settings</a></li>
+                  <li><a class="dropdown-tabs" href="borrowers list.html">Borrower List</a></li>
                 </ul>
               </div>
             </profi>
@@ -70,89 +69,52 @@
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-    <!-- Creates div for Events -->
-    <section class="event">
-      <article class="event-group">
-        <event-element class="event-element">
-          <video class="event-video" controls muted autoplay loop playsinline>
-          <source src="D:\Course\NICF - Frontend\Assignment 2\Assets\Let's Read Together.mp4" type="video/mp4" >
-          </video>
-          <header class="event-tag">
-            <h1 class="event-title header-text">Let's read Together</h1>
-            <p class="event-desc header-text">Come to Silent library special event.
-              We have unleash a ton of books for children outisde the main entrance.
-              There are many fun activities awaits and free prizes to collect.
-              So come on down to Silent Library event and have a great weekend</p>
-           <button class ="video-button">More info</button>
-          </header>
-        </event-element>
-     </article>
+    <!-- Creates div for About -->
+    <div class="about-main">
+      <div class="about-grid">
 
-     <article class="event-group">
-       <event-element class="event-element">
-         <video class="event-video" controls muted autoplay loop playsinline>
-         <source src="D:\Course\NICF - Frontend\Assignment 2\Assets\Geek the Library Event.mp4" type="video/mp4" >
-         </video>
-         <header  class="event-tag">
-           <h1 class="event-title header-text">Geek the library</h1>
-           <p class="event-desc header-text">It's time to geeek out at the most geekiest place of all time.
-             Your friendly neighbourhood library and our fellow geek friends</p>
-          <button class ="video-button">More info</button>
-         </header>
-       </event-element>
-     </article>
-    </section>
+        <!--   Vision -->
+        <div class="about-group" id="vision">
+          <article class="about-group">
+            <h1 class="event-title header-text">Vision</h1>
+            <p class="event-desc header-text">A community that comes together and
+              sharing knowledge and Silent Library to be the centre for meet ups</p>
+          </article>
+        </div>
 
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <!-- About Us   -->
+        <div class="about-group" id="about-us">
+          <article class="about-group">
+            <h1 class="event-title header-text">About Us</h1>
+            <p class="event-desc header-text">We are a non-profit organisation</p>
+          </article>
+        </div>
 
-    <!-- Creates a div for book -->
-    <section class="book">
-      <h1 class="book-category">New</h1>
-      <div>
-        <div>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
+        <!-- Mission   -->
+        <div class="about-group" id="mission">
+          <article class="about-group">
+            <h1 class="event-title header-text">Mission</h1>
+            <p class="event-desc header-text">Strenghten the community cohesion
+              in each community and promoting literacy at young age</p>
+          </article>
         </div>
+
       </div>
-      <h1 class="book-category">Science</h1>
-      <div>
-        <div>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-        </div>
-      </div>
-      <h1 class="book-category">Music</h1>
-      <div>
-        <div>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="D:\Course\NICF - Frontend\Assignment 2\Assets\books\College Physics.jpg" height = 200vh>
-        </div>
-      </div>
-    </section>
+    </div>
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
     <!-- Creates a div for footer -->
-    <footer>
-      <navbar class="main-footer" role="navigation">
+    <footer class="main-footer" role="menubar">
         <!-- Include Logo in NavBar -->
-        <img class="header-tabs" src="D:\Course\NICF - Frontend\Assignment 2\Assets\SL_Logo.png" height = 50vh>
-        <a class="header-tabs" href="#">Home</a>
-        <a class="header-tabs" href="/about">About</a>
-        <a class="header-tabs" href="/browse">New</a>
-        <a class="header-tabs" href="/browse">Books</a>
-        <a class="header-tabs" href="/browse">ebooks</a>
-        <a class="header-tabs" href="/browse/my-list">My List</a>
-        <a class="header-tabs" href="/browse/my-list">Find Us</a>
+        <img class="footer-tabs" src="Assets/facebook.png" height = 30vh>
+        <img class="footer-tabs" src="Assets/instagram.png" height = 30vh>
+        <img class="footer-tabs" src="Assets/youtube.png" height = 30vh>
+        <img class="footer-tabs" src="Assets/twitter.png" height = 30vh>
+        <a class="footer-tabs" href="about.html">Contact Us</a>
+        <a class="footer-tabs" href="browse.html">Find Us</a>
+        <a class="footer-tabs" href="browse.html">Feedback</a>
+        <a class="footer-tabs" href="browse.html">FAQ</a>
     </footer>
   </body>
   <!-- <script src = "scriptfile.js"></script> -->

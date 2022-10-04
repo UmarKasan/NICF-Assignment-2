@@ -321,6 +321,48 @@ svg{
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+/* Event page, About us page, browse page */
+.event-page, .about-main, .browse-page, .find-us-page{
+  margin-top: 50px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* About us */
+.about-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: 100px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Browse */
+.browse-grid{
+  display: grid;
+  grid-template-columns: 150px 800px;
+  gap: 10px;
+}
+
+.side-bar{
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+}
+.side-bar-header{
+  font-size: 30px;
+}
+.side-bar-sub{
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 /* book */
 .book-category{
   font-size: 2em;

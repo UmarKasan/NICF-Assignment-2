@@ -565,6 +565,18 @@ input{
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+/* Sign up */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+.imgcontainer > img{
+  border-radius: 50%;
+  width: 10%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 /* footer */
 .main-footer{
   padding: 10px 10px 10px 10px;

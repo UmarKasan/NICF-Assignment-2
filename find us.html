@@ -24,7 +24,7 @@
             <img class="header-tabs" alt="Silent Library Logo" src="Assets/SL_Logo_3.png" height = 50vh>
             <!-- Adds all the link tag -->
             <ul class="header-tabs">
-              <li><a class="header-tabs header-text" href="#">Home</a></li>
+              <li><a class="header-tabs header-text" href="index.html">Home</a></li>
               <li><a class="header-tabs header-text" href="about.html">About</a></li>
               <li><a class="header-tabs header-text" href="browse.html">New</a></li>
               <li><a class="header-tabs header-text" href="browse.html">Books</a></li>
@@ -38,7 +38,7 @@
             <!-- Create search bar -->
             <searchbar class="search-container">
               <form action="/browse">
-                <input type="text" name="search" placeholder="Search..">
+                <input type="text" name="search" placeholder="Search.." style="background: white;">
                 <button class ="search-button"><img src="Assets/search-interface-symbol.png" type="submit" height = 30vh></button>
               </form>
             </searchbar>
@@ -71,37 +71,70 @@
 
     <!-- Creates div for Find Us/Enquire/ FAQ page -->
     <div class="find-us-page">
-      <div class="about-grid">
+      <div class="">
 
         <!--   messenger -->
         <div class="about-group" id="messenger">
-          <article class="about-group">
-            <h1 class="event-title header-text">Silent Messenger</h1>
-            <p class="event-desc header-text">A community that comes together and
-              sharing knowledge and Silent Library to be the centre for meet ups</p>
+          <article class="find-us-box">
+            <h1 class="header-text">Library Photos</h1>
+            <p class="header-text"style="width:40%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Aliquam rutrum nisl elit. Aliquam et magna pretium, feugiat ligula a,
+              eleifend velit. Morbi mattis consequat suscipit. Pellentesque mi velit,
+              tempus sed augue sed, posuere dignissim nisi.
+              Proin ex dui, viverra vel facilisis sed, condimentum at nunc.
+              Vivamus id leo aliquet, convallis ligula nec, pulvinar nibh.
+              Quisque mollis ipsum vel varius varius. Cras lorem lectus,
+              mattis nec dui consectetur, interdum ultrices velit. Vestibulum semper ornare elit,
+              id molestie felis aliquet vel. Vivamus ut nisi vel massa tristique porttitor.
+              Phasellus vestibulum posuere tortor. Vestibulum facilisis tortor lorem,
+              elementum hendrerit mauris finibus et. Sed malesuada varius tellus in egestas.
+              Curabitur tortor tortor, porttitor sit amet congue ut, volutpat eget turpis.
+            </p>
+          </article>
+          <img src="Assets/Lets read.jpg" alt="Library photo" style="width:50vw;">
+        </div>
+
+        <div class="find-us-group">
+        <!-- Public Transport  -->
+        <div>
+          <article>
+            <h1>Nearest Bus Stop</h1>
+            <p>Aliquam sit amet ante quis tellus aliquam consectetur ac a elit.
+              Morbi nec rutrum justo. Sed tempus, tellus a imperdiet suscipit,
+              nunc mauris dictum ex, et vestibulum velit risus vitae leo.
+              Proin venenatis iaculis felis non lacinia. Sed nec nulla ligula.
+              Nam imperdiet arcu lorem, non placerat turpis facilisis sed.
+              Aenean molestie velit nec mattis tincidunt. In commodo sodales mi.
+              Curabitur enim massa, aliquet ac ipsum ac, ultricies porttitor lorem.
+              Morbi dignissim vehicula ipsum, sit amet sodales erat.
+              Mauris dignissim lorem at est ultricies egestas. Quisque a aliquam justo.
+            </p><br>
+            <h1>Nearest MRT Station</h1>
+            <p>Aliquam sit amet ante quis tellus aliquam consectetur ac a elit.
+              Morbi nec rutrum justo. Sed tempus, tellus a imperdiet suscipit,
+              nunc mauris dictum ex, et vestibulum velit risus vitae leo.
+              Proin venenatis iaculis felis non lacinia. Sed nec nulla ligula.
+              Nam imperdiet arcu lorem, non placerat turpis facilisis sed.
+              Aenean molestie velit nec mattis tincidunt. In commodo sodales mi.
+              Curabitur enim massa, aliquet ac ipsum ac, ultricies porttitor lorem.
+              Morbi dignissim vehicula ipsum, sit amet sodales erat.
+              Mauris dignissim lorem at est ultricies egestas. Quisque a aliquam justo.
+            </p><br>
           </article>
         </div>
 
-        <!-- About Us   -->
-        <div class="about-group" id="Contact-us">
-          <article class="about-group">
-            <h1 class="event-title header-text">Contact Us</h1>
-            <p class="event-desc header-text">We are a non-profit organisation</p>
-          </article>
+        <!-- Site Map   -->
+          <div>
+            <h1>Site Map</h1>
+            <p class="event-desc header-text">
+            </p>
+            <div id="googleMap" style="width:100%;height:400px;">
+              <img src="Assets/map_location.jpg">
+            </div>
+          </div>
         </div>
-
-        <!-- Mission   -->
-        <div class="about-group" id="FAQ">
-          <article class="about-group">
-            <h1 class="event-title header-text">FAQ</h1>
-            <p class="event-desc header-text">Strenghten the community cohesion
-              in each community and promoting literacy at young age</p>
-          </article>
-        </div>
-
       </div>
     </div>
-
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
@@ -112,11 +145,12 @@
         <img class="footer-tabs" src="Assets/instagram.png" height = 30vh>
         <img class="footer-tabs" src="Assets/youtube.png" height = 30vh>
         <img class="footer-tabs" src="Assets/twitter.png" height = 30vh>
-        <a class="footer-tabs" href="about.html">Contact Us</a>
-        <a class="footer-tabs" href="browse.html">Find Us</a>
-        <a class="footer-tabs" href="browse.html">Feedback</a>
-        <a class="footer-tabs" href="browse.html">FAQ</a>
+        <a class="footer-tabs" href="enquire.html">Contact Us</a>
+        <a class="footer-tabs" href="find us.html">Find Us</a>
+        <a class="footer-tabs" href="enquire.html">Feedback</a>
+        <a class="footer-tabs" href="enquire.html">FAQ</a>
     </footer>
+
   </body>
-  <!-- <script src = "scriptfile.js"></script> -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 </html>

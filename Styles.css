@@ -208,7 +208,6 @@ profi{
   overflow-x: hidden;
   scroll-behavior: smooth;
   grid-auto-columns: 100%;
-  /* padding: 0 3rem; */
   scroll-padding-inline: 3rem;
 }
 
@@ -322,7 +321,7 @@ svg{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* Event page, About us page, browse page */
-.event-page, .about-main, .browse-page, .find-us-page{
+.event-page, .about-main, .browse-page, .find-us-page, .sign-page, .enquire-page{
   margin-top: 50px;
 }
 
@@ -371,6 +370,197 @@ svg{
 .book-profile {
   padding-left: 1%;
   padding-right: 1%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* find us page */
+.find-us-group{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 2em;
+  gap: 10px;
+}
+.find-us-box{
+position: absolute;
+top: 250px;
+height: o;
+z-index: 11;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* sign up page */
+.sign-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.img-profile{
+  border-style: solid;
+  border-width: 1%;
+  border-color: white;
+  border-radius: 10%;
+}
+input[id=address] {
+  width: 100%;
+}
+.sign-check-grid{
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  width: 150vw;
+  grid-gap: 1vw;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Enquire page */
+
+/* messeenger */
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+h4{
+    font-family: var(--main-font);
+    text-align: center;
+    padding: 10px;
+    color: var(--text-color);
+
+}
+
+h5[class=enquire-box]{
+    font-family: 'Padauk', sans-serif;
+    border: solid;
+    border-radius: 10%;
+    border-color: grey;
+    border-width: medium;
+    padding:10em 10em 10em 10em;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 17px;
+    opacity: 0.5;
+    color: var(--text-color);
+
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: var(--secondary-color);
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.messages{
+    font-family: var(--main-font);
+    color: var(--text-color);
+}
+
+/* display: inline-block will help us to avoid the text from  */
+.message-item span{
+    display: inline-block;
+    padding:10px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.submit{
+    padding: 8px;
+    border-radius: 5px;
+    font-family: var(--main-font);
+    font-size: 15px;
+    color: white;
+    background-color: #3636C9;
+    border-style: none;
+}
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+
+  .theme-switch input {
+    display:none;
+  }
+
+  .slider {
+    background-color: #c7c786;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+
+  input:checked + .slider {
+    background-color: #3636C9;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+
+  .slider.round {
+    border-radius: 34px;
+  }
+
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+/* FAQ */
+
+.enquire-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  /* grid-auto-rows: 100px; */
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* borrowers list */
+.borrower-row{
+  display: flex;
+  flex-direction: row;
+  padding: 1em 1em 1em 1em;
+}
+.borrower-list{
+  padding: 1em 1em 1em 1em;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

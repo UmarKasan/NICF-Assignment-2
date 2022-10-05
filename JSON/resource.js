@@ -1,0 +1,10 @@
+"admin":[
+  {"firstName":"John", "Password":"123"},
+  {"firstName":"Loh", "Password":"456"},
+  {"firstName":"Peter", "Password":"P123"}
+]
+"members":[
+  {"firstName":"John", "lastName":"Doe"},
+  {"firstName":"Anna", "lastName":"Smith"},
+  {"firstName":"Peter", "lastName":"Jones"}
+]

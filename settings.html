@@ -24,7 +24,7 @@
             <img class="header-tabs" alt="Silent Library Logo" src="Assets/SL_Logo_3.png" height = 50vh>
             <!-- Adds all the link tag -->
             <ul class="header-tabs">
-              <li><a class="header-tabs header-text" href="#">Home</a></li>
+              <li><a class="header-tabs header-text" href="index.html">Home</a></li>
               <li><a class="header-tabs header-text" href="about.html">About</a></li>
               <li><a class="header-tabs header-text" href="browse.html">New</a></li>
               <li><a class="header-tabs header-text" href="browse.html">Books</a></li>
@@ -38,7 +38,7 @@
             <!-- Create search bar -->
             <searchbar class="search-container">
               <form action="/browse">
-                <input type="text" name="search" placeholder="Search..">
+                <input type="text" name="search" placeholder="Search.." style="background: white;">
                 <button class ="search-button"><img src="Assets/search-interface-symbol.png" type="submit" height = 30vh></button>
               </form>
             </searchbar>
@@ -54,13 +54,13 @@
               <div class="dropdown">
                 <button class ="dropdown-button" type="button" ><img src="Assets/down-arrow.png" height = 20vh></button>
                 <ul class="dropdown-content">
-                  <li><a class="dropdown-tabs" href="#">Sign up</a></li>
-                  <li><a class="dropdown-tabs" href="#">Log In</a></li>
+                  <li><a class="dropdown-tabs" href="sign up.html">Sign up</a></li>
+                  <li><a class="dropdown-tabs" href="log in.html">Log In</a></li>
                   <li><a class="dropdown-tabs" href="#">Log Out</a></li>
-                  <li><a class="dropdown-tabs" href="#">Profile</a></li>
-                  <li><a class="dropdown-tabs" href="#">Enquire</a></li>
-                  <li><a class="dropdown-tabs" href="#">Settings</a></li>
-                  <li><a class="dropdown-tabs" href="#">Borrower List</a></li>
+                  <li><a class="dropdown-tabs" href="profile.html">Profile</a></li>
+                  <li><a class="dropdown-tabs" href="enquire.html">Enquire</a></li>
+                  <li><a class="dropdown-tabs" href="settings.html">Settings</a></li>
+                  <li><a class="dropdown-tabs" href="borrowers list.html">Borrower List</a></li>
                 </ul>
               </div>
             </profi>
@@ -70,112 +70,7 @@
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
     <!-- Creates div for Events -->
-    <div class="media-container">
-      <div class="media-scroller">
-
-        <!--   Group 1 -->
-        <div class="media-group" id="group-1">
-          <a class="previous" href="#group-2">
-            <svg>
-              <use href="#previous"></use>
-            </svg>
-          </a>
-          <article class="event-group">
-            <h1 class="event-title header-text">Let's read Together</h1>
-            <p class="event-desc header-text">Come to Silent library special event.
-            We have unleash a ton of books for children outisde the main entrance.
-            There are many fun activities awaits and free prizes to collect.
-            So come on down to Silent Library event and have a great weekend</p>
-            <button class ="video-button">More info</button>
-          </article>
-          <div class="media-element">
-            <img class="event-img" src="Assets/Lets read.jpg" alt="Lets read event photo">
-          </div>
-          <a class="next" href="#group-2" aria-label="next">
-            <svg>
-              <use href="#next"></use>
-            </svg>
-          </a>
-        </div>
-
-        <!-- Group 2   -->
-        <div class="media-group" id="group-2">
-          <a class="previous" href="#group-1">
-            <svg>
-              <use href="#previous"></use>
-            </svg>
-          </a>
-          <article class="event-group">
-            <h1 class="event-title header-text">Geek the library</h1>
-            <p class="event-desc header-text">It's time to geeek out at the most geekiest place of all time.
-              Your friendly neighbourhood library and our fellow geek friends</p>
-            <button class ="video-button">More info</button>
-          </article>
-          <div class="media-element">
-            <img class="event-img" src="Assets/Geek photo.jpg" alt="Geek photo Event">
-          </div>
-          <a class="next" href="#group-1" aria-label="next">
-            <svg>
-              <use href="#next"></use>
-            </svg>
-          </a>
-        </div>
-        <div class="navigation-indicators">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-    </div>
-    <svg>
-      <symbol id="next" viewBox="0 0 256 512">
-        <path fill="white"
-          d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
-      </symbol>
-
-      <symbol id="previous" viewBox="0 0 256 512">
-        <path fill="white"
-          d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
-      </symbol>
-    </svg>
-
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-    <!-- Creates a div for book -->
-    <section class="book">
-      <h1 class="book-category">New</h1>
-      <div>
-        <div>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-        </div>
-      </div>
-      <h1 class="book-category">Science</h1>
-      <div>
-        <div>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-        </div>
-      </div>
-      <h1 class="book-category">Music</h1>
-      <div>
-        <div>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-          <img class="book-profile" src="Assets/books/College Physics.jpg" height = 200vh>
-        </div>
-      </div>
-    </section>
-
+    <h1 style="padding-top: 10em;">More Features Coming Soon!</h1>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
     <!-- Creates a div for footer -->
@@ -185,10 +80,10 @@
         <img class="footer-tabs" src="Assets/instagram.png" height = 30vh>
         <img class="footer-tabs" src="Assets/youtube.png" height = 30vh>
         <img class="footer-tabs" src="Assets/twitter.png" height = 30vh>
-        <a class="footer-tabs" href="about.html">Contact Us</a>
-        <a class="footer-tabs" href="browse.html">Find Us</a>
-        <a class="footer-tabs" href="browse.html">Feedback</a>
-        <a class="footer-tabs" href="browse.html">FAQ</a>
+        <a class="footer-tabs" href="enquire.html">Contact Us</a>
+        <a class="footer-tabs" href="find us.html">Find Us</a>
+        <a class="footer-tabs" href="enquire.html">Feedback</a>
+        <a class="footer-tabs" href="enquire.html">FAQ</a>
     </footer>
   </body>
   <!-- <script src = "scriptfile.js"></script> -->

@@ -16,13 +16,9 @@ body{
 .media-container {
   margin-left: 0px
 }
-/* Remove margins from "page content" on small screens */
-/* @media only screen and (max-width: 400px) {
-  .pinning-header-container{
-  flex-direction: column;
-  background-color: lightgreen;
-  }
-} */
+.pinning-header-container{
+  background-image: linear-gradient(rgba(255,0,0,0), rgba(0,0,0,1));
+}
 .main-body-div {
   color: #fff!important;
   background: rgba(40, 40, 40, 1)!important;
@@ -383,7 +379,7 @@ svg{
 }
 .find-us-box{
 position: absolute;
-top: 250px;
+top: 200px;
 height: o;
 z-index: 11;
 }
@@ -458,10 +454,10 @@ input{
     margin-bottom: 10px;
     border-radius: 4px;
     border-style: none;
-    background-color: var(--secondary-color);
+    background-color: white;
     font-size: 10px;
     font-weight: 600;
-    color: var(--text-color);
+    color: black;
 }
 
 .messages{

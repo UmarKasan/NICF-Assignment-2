@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "Title": "Physics",
+        "description": "F=MA, Its a book to learn physics not psychic",
+        "total": 3,
+        "onLoan": 1,
+        "borrower": ["Priya", "Shaunita", "Jeya"]
+    },
+    {
+      "id": "2",
+      "Title": "Music",
+      "description": "Learn how to read musical notes, because your musically illeterate",
+      "total": 3,
+      "onLoan": 2,
+      "borrower": ["Umar", "Nicholas", "kaye"]
+    },
+    {
+      "id": "3",
+      "Title": "Learn English",
+      "description": "Learning in Youtube is not proper english,Dawg",
+      "total": 3,
+      "onLoan": 3,
+      "borrower": ["Jay", "Lam", "Hakurou"]
+    }
+]
